@@ -13,3 +13,10 @@
 5. .env package added to the project, so to hid a port number and other sensitive information in the future from repo files.
 6. Inside of .env file add port number and in server.js modufied to listin to process.env.PORT
 7. Added middleware for logging the req information on the console everytime server.js receiving request.
+
+## Lesson #3 Express Router & API Routes
+
+1. create a different file to keep all the routes in
+2. use express route to use separate files for each route with its method, instead of just in server.js
+3. set-up router in export it in routes module.
+4. on server required workouts routing and used it in middleware

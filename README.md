@@ -20,3 +20,4 @@
 2. use express route to use separate files for each route with its method, instead of just in server.js
 3. set-up router in export it in routes module.
 4. on server required workouts routing and used it in middleware
+5. in workouts.js file create a routes for all requests on /

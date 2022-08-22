@@ -10,3 +10,6 @@
 2. Express package installed
 3. Setting up the express app in server.js
 4. add dev script to package.json file, so it is easier to run command npm run dev
+5. .env package added to the project, so to hid a port number and other sensitive information in the future from repo files.
+6. Inside of .env file add port number and in server.js modufied to listin to process.env.PORT
+7. Added middleware for logging the req information on the console everytime server.js receiving request.

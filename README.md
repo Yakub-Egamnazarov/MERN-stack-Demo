@@ -97,3 +97,4 @@ router.post("/", async (req, res) => {
 2. Installed react-router (npm i react-router-dom)
 3. Create a Home component inside pages folder
 4. Create a Navbar component inside component folder
+5. Add styling to the added components and pages

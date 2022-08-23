@@ -87,4 +87,4 @@ router.post("/", async (req, res) => {
 
 ## Lesson #7 Controllers (part. 2)
 
-1.
+1. Create controller function for deleteWorkout

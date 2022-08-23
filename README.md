@@ -98,3 +98,7 @@ router.post("/", async (req, res) => {
 3. Create a Home component inside pages folder
 4. Create a Navbar component inside component folder
 5. Add styling to the added components and pages
+
+## Lesson #9 Fetching Data
+
+1.

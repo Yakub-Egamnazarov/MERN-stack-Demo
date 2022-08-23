@@ -30,3 +30,31 @@
 4. make a connection to the Mongo DB through mongoose in server.js, then connect to the port 4000.
 
 ## Lesson #5 Models & Schemas
+
+1. Create schema and model for the project data, so every document saved to the collection will be following the same structure.
+2. Created backend/models/Workout.js schema file
+3. inside Workout.js file we require mongoose package
+4. Define an Schema object from mongoose.Schema
+5. Create a new Schema object workoutSchema, which get's object as reference for schema
+
+```Javascript
+const workoutSchema = new Schema({
+   title: {
+   type: String,
+   required: true
+   },
+   reps: {
+   type: Number,
+   required: true,
+   },
+   load: {
+   type: Number,
+   require: true
+   }
+   });
+
+```
+
+6. Add timestamps for Schema as a second argument, so the Schema object automatically adds created and modified times to the data files.
+7. Making model based on the Schema to import for the project later.
+8. Get in model data from POST request

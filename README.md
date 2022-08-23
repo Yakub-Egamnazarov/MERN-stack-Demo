@@ -57,4 +57,21 @@ const workoutSchema = new Schema({
 
 6. Add timestamps for Schema as a second argument, so the Schema object automatically adds created and modified times to the data files.
 7. Making model based on the Schema to import for the project later.
-8. Get in model data from POST request
+8. Get in model data from POST request and put it inside try-catch block.
+
+```Javascript
+router.post("/", async (req, res) => {
+  const { title, load, reps } = req.body;
+
+  try {
+    const workout = await Workout.create({ title, load, reps });
+    res.status(200).json(workout);
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+
+  res.json({ mssg: "POST a new workout" });
+});
+```
+
+9. On postman on POST request fill the body.json post request and test the app

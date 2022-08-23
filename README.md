@@ -28,3 +28,5 @@
 2. Copy the Mongo connect application string to .env file under MONGO_URI variable
 3. Added Mongose ODM (Object Data Modeling) library to backend folder. (npm i mongoose).
 4. make a connection to the Mongo DB through mongoose in server.js, then connect to the port 4000.
+
+## Lesson #5 Models & Schemas

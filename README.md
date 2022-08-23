@@ -90,3 +90,5 @@ router.post("/", async (req, res) => {
 1. Create controller function for deleteWorkout
 2. Create controller funtion for updateWorkout
 3. Make a test of the backend API that they are working well
+
+## Lesson #8 Making a React App

@@ -75,3 +75,5 @@ router.post("/", async (req, res) => {
 ```
 
 9. On postman on POST request fill the body.json post request and test the app
+
+## Lesson # 6 Controllers (part.1 )

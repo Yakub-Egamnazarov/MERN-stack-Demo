@@ -105,3 +105,5 @@ router.post("/", async (req, res) => {
 2. Make the fetch only when the Home component end its rendering by useEffect hook
 3. useState hook is used for update state of workout inside of Home component
 4. in package.json added proxy setting to avoid CORS error on the react app
+5. Create a new component inside components folder
+6. Add styling for a single workout component

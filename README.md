@@ -84,3 +84,7 @@ router.post("/", async (req, res) => {
    2.2 Create getWorkouts controller function and function for getting a single workout
 
 3. test the controller function on postman
+
+## Lesson #7 Controllers (part. 2)
+
+1.

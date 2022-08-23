@@ -94,3 +94,4 @@ router.post("/", async (req, res) => {
 ## Lesson #8 Making a React App
 
 1. Creating a React App by npx-create-react-app frontend
+2. Installed react-router (npm i react-router)

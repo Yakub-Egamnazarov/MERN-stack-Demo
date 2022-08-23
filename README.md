@@ -88,3 +88,4 @@ router.post("/", async (req, res) => {
 ## Lesson #7 Controllers (part. 2)
 
 1. Create controller function for deleteWorkout
+2. Create controller funtion for updateWorkout

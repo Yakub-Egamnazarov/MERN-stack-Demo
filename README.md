@@ -101,4 +101,7 @@ router.post("/", async (req, res) => {
 
 ## Lesson #9 Fetching Data
 
-1.
+1. Fetch all the api from Home page and list them on the Home page
+2. Make the fetch only when the Home component end its rendering by useEffect hook
+3. useState hook is used for update state of workout inside of Home component
+4. in package.json added proxy setting to avoid CORS error on the react app

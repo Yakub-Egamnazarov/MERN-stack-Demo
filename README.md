@@ -77,3 +77,10 @@ router.post("/", async (req, res) => {
 9. On postman on POST request fill the body.json post request and test the app
 
 ## Lesson # 6 Controllers (part.1 )
+
+1. Create a controller file for controller functions for each of the routes
+2. Write down all the controller functions for each route
+   2.1 Move the post functionality from workouts.js to workoutCountroller to createWorkout controller function
+   2.2 Create getWorkouts controller function and function for getting a single workout
+
+3. test the controller function on postman

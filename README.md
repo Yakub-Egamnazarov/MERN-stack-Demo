@@ -107,3 +107,7 @@ router.post("/", async (req, res) => {
 4. in package.json added proxy setting to avoid CORS error on the react app
 5. Create a new component inside components folder
 6. Add styling for a single workout component
+
+## Lesson #10 New Workout Form
+
+1.

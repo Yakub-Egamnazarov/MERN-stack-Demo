@@ -92,3 +92,5 @@ router.post("/", async (req, res) => {
 3. Make a test of the backend API that they are working well
 
 ## Lesson #8 Making a React App
+
+1. Creating a React App by npx-create-react-app frontend

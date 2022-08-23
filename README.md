@@ -21,3 +21,9 @@
 3. set-up router in export it in routes module.
 4. on server required workouts routing and used it in middleware
 5. in workouts.js file create a routes for all requests on /
+
+## Lesson #4 MongoDB Atlas & Mongoose
+
+1. Created new cluster and database in MongoDB
+2. Copy the Mongo connect application string to .env file under MONGO_URI variable
+3. Added Mongose ODM (Object Data Modeling) library to backend folder. (npm i mongoose).

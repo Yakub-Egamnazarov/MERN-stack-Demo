@@ -96,3 +96,4 @@ router.post("/", async (req, res) => {
 1. Creating a React App by npx-create-react-app frontend
 2. Installed react-router (npm i react-router-dom)
 3. Create a Home component inside pages folder
+4. Create a Navbar component inside component folder

@@ -110,4 +110,5 @@ router.post("/", async (req, res) => {
 
 ## Lesson #10 New Workout Form
 
-1.
+1. Create a form for a new Workout, for this, need to create new component.
+2. Add styling to the Workout form.
